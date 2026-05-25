@@ -30,5 +30,6 @@ Record both apps side by side (split screen) or cut between Trainer → Guru. Sp
 
 ```
 WTF Assessment: Member DK + Trainer Aarav — chat, schedule, 100ms video (dev), sessions.
-Repo: <paste GitHub URL>
+Repo: https://github.com/mayurkumar2068/wtf_flutter_test
+Video: https://drive.google.com/file/d/1eDxgZ-xrh_oyuwPrGon87p9C2Q6Kjl0g/view?usp=sharing
 ```

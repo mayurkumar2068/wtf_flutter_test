@@ -38,4 +38,4 @@ Structured record of AI-assisted work (Cursor / Claude). Update commit SHAs afte
 
 **Git:** branch `main`, repo root `wtf_flutter_test/`. Push: [SUBMISSION.md](SUBMISSION.md).
 
-**Post-push:** replace `YOUR_USERNAME` in SUBMISSION email template with actual GitHub URL.
+**Submission:** repo https://github.com/mayurkumar2068/wtf_flutter_test · demo https://drive.google.com/file/d/1eDxgZ-xrh_oyuwPrGon87p9C2Q6Kjl0g/view?usp=sharing

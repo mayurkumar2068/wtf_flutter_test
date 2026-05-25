@@ -100,8 +100,7 @@ cd trainer_app && flutter analyze
 
 ## Submission
 
-- **[SUBMISSION.md](SUBMISSION.md)** — GitHub push, form text, verify steps
-- **[DEMO_VIDEO_SCRIPT.md](DEMO_VIDEO_SCRIPT.md)** — ~3 min screen recording script
+- **Repo:** https://github.com/mayurkumar2068/wtf_flutter_test
+- **Demo video:** https://drive.google.com/file/d/1eDxgZ-xrh_oyuwPrGon87p9C2Q6Kjl0g/view?usp=sharing
+- **[SUBMISSION.md](SUBMISSION.md)** — form copy-paste text
 - **[CHECKLIST.md](CHECKLIST.md)** — feature matrix (auto + manual)
-
-Record a ~3 min screen capture following `DEMO_VIDEO_SCRIPT.md`, then push `main` per `SUBMISSION.md`.

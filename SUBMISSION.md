@@ -1,75 +1,55 @@
 # Submission Guide — WTF Flutter Assessment
 
-## What to send
+## Submitted links
 
-| Item | Status |
-|------|--------|
-| GitHub repo (public or invite reviewer) | See below |
-| ~3 min demo video | [DEMO_VIDEO_SCRIPT.md](DEMO_VIDEO_SCRIPT.md) |
-| Run instructions | [README.md](README.md) |
-| AI ledger + architecture | [AI_LEDGER.md](AI_LEDGER.md), [ARCHITECTURE.md](ARCHITECTURE.md) |
+| Item | Link |
+|------|------|
+| **GitHub repo** | https://github.com/mayurkumar2068/wtf_flutter_test |
+| **Demo video** | https://drive.google.com/file/d/1eDxgZ-xrh_oyuwPrGon87p9C2Q6Kjl0g/view?usp=sharing |
+| **Assessment doc** | https://docs.google.com/document/d/1Qxr40N_neoHbrelAFiGVh1x03FA5EHbP303O5JdNBFc/edit?usp=sharing |
 
-## 1. Push to GitHub
-
-Repo is initialized on branch `main`. From `wtf_flutter_test/`:
-
-```bash
-# Create empty repo on GitHub: https://github.com/new
-# Name example: wtf-flutter-assessment (no README — already local)
-
-git remote add origin https://github.com/YOUR_USERNAME/wtf-flutter-assessment.git
-git push -u origin main
-```
-
-SSH:
-
-```bash
-git remote add origin git@github.com:YOUR_USERNAME/wtf-flutter-assessment.git
-git push -u origin main
-```
-
-After push, copy the repo URL for the submission form.
-
-## 2. Record demo video (~3 min)
-
-Follow **[DEMO_VIDEO_SCRIPT.md](DEMO_VIDEO_SCRIPT.md)** scene by scene.
-
-**Before recording:**
-
-```bash
-./scripts/start_android_dev.sh
-# Terminal 2: cd guru_app && flutter run
-# Terminal 3: cd trainer_app && flutter run   # second device or emulator
-```
-
-**Recording (macOS):** QuickTime → File → New Screen Recording, or `Cmd+Shift+5` → Record Selected Portion.
-
-Upload to Google Drive / Loom / YouTube (unlisted) and paste link in submission.
-
-## 3. Email / form fields (template)
+## Copy-paste for form / email
 
 ```
 Project: WTF Flutter Assessment — Guru ↔ Trainer
-Repo: https://github.com/YOUR_USERNAME/wtf-flutter-assessment
-Video: https://...
+Repo: https://github.com/mayurkumar2068/wtf_flutter_test
+Video: https://drive.google.com/file/d/1eDxgZ-xrh_oyuwPrGon87p9C2Q6Kjl0g/view?usp=sharing
 Run: See README.md — token_server + adb reverse + flutter run (both apps)
 Tests: cd shared && flutter test (31 tests)
 Notes: 100ms runs in HMS_DEV_MODE (mock tokens). Real RTC: token_server/.env.example
 ```
 
-## 4. Optional release APKs
+## What to send
+
+| Item | Status |
+|------|--------|
+| GitHub repo | ✅ Published |
+| ~3 min demo video | ✅ [Google Drive](https://drive.google.com/file/d/1eDxgZ-xrh_oyuwPrGon87p9C2Q6Kjl0g/view?usp=sharing) |
+| Run instructions | [README.md](README.md) |
+| AI ledger + architecture | [AI_LEDGER.md](AI_LEDGER.md), [ARCHITECTURE.md](ARCHITECTURE.md) |
+
+## Run locally (reviewer)
 
 ```bash
-cd guru_app && flutter build apk --release
-cd ../trainer_app && flutter build apk --release
-# APKs: build/app/outputs/flutter-apk/app-release.apk
+./scripts/start_android_dev.sh
+# Terminal 2: cd guru_app && flutter run
+# Terminal 3: cd trainer_app && flutter run
 ```
 
-## 5. Verify before submit
+Real phone: `adb reverse tcp:3000 tcp:3000`
+
+## Verify
 
 ```bash
 curl http://127.0.0.1:3000/health
 cd shared && flutter test
 cd ../guru_app && flutter test
 cd ../trainer_app && flutter test
+```
+
+## Optional release APKs
+
+```bash
+cd guru_app && flutter build apk --release
+cd ../trainer_app && flutter build apk --release
 ```
