@@ -29,11 +29,12 @@ Structured record of AI-assisted work (Cursor / Claude). Update commit SHAs afte
 
 **After:** Single export from `time_utils.dart`; validator imports it — reduces drift.
 
-## Commit references (fill after git push)
+## Commit references
 
-- `feat: scaffold monorepo and shared package` — AI #1–4
-- `feat: token server and sync API` — AI #7
-- `feat: guru and trainer apps UI` — AI #8–9
-- `feat: 100ms call service and screens` — AI #6
-- `test: shared unit tests` — AI #10
-- `docs: README architecture decisions AI ledger` — AI #12
+| SHA | Message | AI ledger items |
+|-----|---------|-----------------|
+| `1398bda` | feat: scaffold monorepo and shared package | #1–12 (monorepo: shared, token_server, both apps, tests, docs, scripts) |
+
+**Git:** branch `main`, repo root `wtf_flutter_test/`. Push: [SUBMISSION.md](SUBMISSION.md).
+
+**Post-push:** replace `YOUR_USERNAME` in SUBMISSION email template with actual GitHub URL.
