@@ -1,5 +1,7 @@
 # Submission Guide — WTF Flutter Assessment
 
+**Reviewer:** All submission links (GitHub + demo video) are in the table below. Clone the repo for source code; run steps are in [README.md](README.md).
+
 ## Submitted links
 
 | Item | Link |
