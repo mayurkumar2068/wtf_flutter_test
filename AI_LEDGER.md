@@ -33,7 +33,8 @@ Structured record of AI-assisted work (Cursor / Claude). Update commit SHAs afte
 
 | SHA | Message | AI ledger items |
 |-----|---------|-----------------|
-| `1398bda` | feat: scaffold monorepo and shared package | #1–12 (monorepo: shared, token_server, both apps, tests, docs, scripts) |
+| `1398bda` | feat: scaffold monorepo and shared package | #1–12 (monorepo: shared, token_server, both apps, tests, scripts) |
+| `3daa329` | docs: submission guide, demo script, checklist | #12 + submission pack |
 
 **Git:** branch `main`, repo root `wtf_flutter_test/`. Push: [SUBMISSION.md](SUBMISSION.md).
 
